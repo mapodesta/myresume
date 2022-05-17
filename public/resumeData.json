@@ -4,9 +4,9 @@
 		"description": "I am an Electronic Engineer and I work in software since 2019. I use React and NodeJS to develop projects",
 		"image": "profilepic.jpg",
 		"bio": "Im Argentinian and love tech so I studied electronic and IT. I like working in teams and share knowledge. My hobbies are sports like football ,going to the gym and enjoying time with my wife and family",
-		"contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+		"contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
 		"email": "mathias643@gmail.com",
-		"phone": "(+353)085 135 6152",
+		"phone": "(+353) 085 135 6152",
 		"github": "https://github.com/mapodesta",
 		"address": {
 			"street": "Greenville Place",
@@ -15,31 +15,26 @@
 			"zip": "D08 X3E7"
 		},
 		"website": "http://www.timbakerdev.com",
-		"resumedownload": "http://timbakerdev.com",
+		"resumedownload": "https://drive.google.com/file/d/1IDyN8ljRtXfCQpvsgwfefCR_buobelNo/view?usp=sharing",
 		"social": [
 			{
-				"name": "facebook",
-				"url": "https://github.com/nordicgiant2/react-nice-resume",
-				"className": "fa fa-facebook"
-			},
-			{
 				"name": "twitter",
-				"url": "http://twitter.com",
+				"url": "https://twitter.com/mathipodesta",
 				"className": "fa fa-twitter"
 			},
 			{
 				"name": "linkedin",
-				"url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+				"url": "https://www.linkedin.com/in/mpodesta/",
 				"className": "fa fa-linkedin"
 			},
 			{
 				"name": "instagram",
-				"url": "http://instagram.com/tbaker_x",
+				"url": "http://instagram.com/mathi_podesta",
 				"className": "fa fa-instagram"
 			},
 			{
 				"name": "github",
-				"url": "https://github.com/nordicgiant2/react-nice-resume",
+				"url": "https://github.com/mapodesta",
 				"className": "fa fa-github"
 			}
 		]
@@ -65,13 +60,13 @@
 				"company": "GlobalUY",
 				"title": "FrontEnd Developer ",
 				"years": "December 2021 - April 2022",
-				"description": "Coding and Developing web solutions and collaborate with other team members to find the best solution to daily problems.Features development and implementation.UX and UI design, think and decide how the module will work with the given information and finally develop it."
+				"description": "Coding and developing web solutions and collaborate with other team members to find the best solution to daily problems.So I help with the Features development and implementation and discuss the UX/UI design.Also think and decide how the module will work with the given information and finally develop it."
 			},
 			{
 				"company": "SAN NICOLÁS DE LOS ARROYOS CITY HALL",
 				"title": "FullStack Developer",
 				"years": "June 2020 - December 2021",
-				"description": "Handling customer requirements for technical solutions.Build an efficient, maintainable code based on requirements.  Collaborate with other team members to find the best solution to daily problems.Features development and implementation.Analysis of the product and suggestions about improvements on performance issues. Projects: Development of software for several county management procedure sectors such as the city fines department, the city department of housing and urban development, consumer protection, attorneys register and street sellers register. I’ve also developed software for athletic scholarships."
+				"description": "Handling customer requirements for technical solutions.Build an efficient, maintainable code based on requirements.Collaborate with other team members to find the best solution to daily problems.Features development and implementation.Analysis of the product and suggestions about improvements on performance issues. Projects: Development of software for several county management procedure sectors such as the city fines department, the city department of housing and urban development, consumer protection, attorneys register and street sellers register. I’ve also developed software for athletic scholarships."
 			}
 		],
 		"skills": [
