@@ -3,7 +3,7 @@
 		"name": "Mathias Alejandro Podesta",
 		"description": "I am an Electronic Engineer and I work in software since 2019. I use React and NodeJS to develop projects",
 		"image": "profilepic.jpg",
-		"bio": "Im Argentinian and love tech so I studied electronic and IT. I like working in teams and share knowledge. My hobbies are sports like football ,going to the gym and enjoying time with my wife and family",
+		"bio": "Im from Argentina and love tech so I studied electronic and IT. I like working in teams and share knowledge. My hobbies are sports like football ,going to the gym and enjoying time with my wife and family",
 		"contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
 		"email": "mathias643@gmail.com",
 		"phone": "(+353) 085 135 6152",
@@ -67,6 +67,18 @@
 				"title": "FullStack Developer",
 				"years": "June 2020 - December 2021",
 				"description": "Handling customer requirements for technical solutions.Build an efficient, maintainable code based on requirements.Collaborate with other team members to find the best solution to daily problems.Features development and implementation.Analysis of the product and suggestions about improvements on performance issues. Projects: Development of software for several county management procedure sectors such as the city fines department, the city department of housing and urban development, consumer protection, attorneys register and street sellers register. I’ve also developed software for athletic scholarships."
+			},
+			{
+				"company": "CLINICA UOM",
+				"title": "Frontend Developer",
+				"years": "June 2019 - December 2019",
+				"description": "Coding and Developing web solutions.As junior developer I try to find the way to solve a problem alone, trying not to ask other team members."
+			},
+			{
+				"company": "GICOM",
+				"title": "Researcher",
+				"years": "April 2015 - December 2019",
+				"description": "Academic Papers: “Satellite ADSB Messages Collision Simulation” Researcher in R&D"
 			}
 		],
 		"skills": [
