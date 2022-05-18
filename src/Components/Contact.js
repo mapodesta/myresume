@@ -1,11 +1,9 @@
 import { Fade, Slide } from "react-reveal";
-import { useState } from "react";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 
 const Contact = ({ data }) => {
-  const [nameMail, setNameMail] = useState("");
-  const [contactMail, setContactMail] = useState("");
-  const [body, setBody] = useState("");
-  const [contactMessage, setContactMessage] = useState("");
+  const form = useRef();
 
   if (!data) return null;
   const name = data.name;
@@ -18,14 +16,23 @@ const Contact = ({ data }) => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(nameMail, contactMail, body, contactMessage);
-    if (
-      nameMail === "" ||
-      contactMail === "" ||
-      body === "" ||
-      contactMessage === ""
-    )
-      return alert("Por favor complete todos los campos");
+    emailjs
+      .sendForm(
+        "service_6mp8skr",
+        "template_xpo3ai2",
+        form.current,
+        "cY6CzwstGgVQOf9wY"
+      )
+      .then(
+        (result) => {
+          alert("Gracias por su mensaje");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
   };
 
   return (
@@ -47,60 +54,32 @@ const Contact = ({ data }) => {
       <div className="row">
         <Slide left duration={1000}>
           <div className="eight columns">
-            <form onSubmit={onSubmit}>
+            <form onSubmit={onSubmit} ref={form}>
               <fieldset>
                 <div>
                   <label htmlFor="contactName">
                     Name <span className="required">*</span>
                   </label>
-                  <input
-                    type="text"
-                    size="35"
-                    id="contactName"
-                    name="contactName"
-                    value={nameMail}
-                    onChange={(e) => setNameMail(e.target.value)}
-                  />
+                  <input type="text" size="35" name="name" />
                 </div>
 
                 <div>
                   <label htmlFor="contactEmail">
                     Email <span className="required">*</span>
                   </label>
-                  <input
-                    type="text"
-                    size="35"
-                    id="contactEmail"
-                    name="contactEmail"
-                    value={contactMail}
-                    onChange={(e) => setContactMail(e.target.value)}
-                  />
+                  <input type="text" size="35" name="mail" />
                 </div>
 
                 <div>
                   <label htmlFor="contactSubject">Subject</label>
-                  <input
-                    type="text"
-                    size="35"
-                    id="contactSubject"
-                    name="contactSubject"
-                    value={body}
-                    onChange={(e) => setBody(e.target.value)}
-                  />
+                  <input type="text" size="35" name="subject" />
                 </div>
 
                 <div>
                   <label htmlFor="contactMessage">
                     Message <span className="required">*</span>
                   </label>
-                  <textarea
-                    cols="50"
-                    rows="8"
-                    id="contactMessage"
-                    name="contactMessage"
-                    value={contactMessage}
-                    onChange={(e) => setContactMessage(e.target.value)}
-                  ></textarea>
+                  <textarea cols="50" rows="8" name="message"></textarea>
                 </div>
 
                 <div>
