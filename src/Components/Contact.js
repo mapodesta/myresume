@@ -32,12 +32,13 @@ const Contact = ({ data }) => {
     ) {
       toast("Please,complete the fields", {
         position: "top-left",
-        autoClose: 5000,
+        autoClose: 3000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
+        theme: "dark",
       });
 
       return;
@@ -53,12 +54,13 @@ const Contact = ({ data }) => {
           (result) => {
             toast("Thanks for your message", {
               position: "top-left",
-              autoClose: 5000,
+              autoClose: 3000,
               hideProgressBar: false,
               closeOnClick: true,
               pauseOnHover: true,
               draggable: true,
               progress: undefined,
+              theme: "dark",
             });
           },
           (error) => {

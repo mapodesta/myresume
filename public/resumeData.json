@@ -3,7 +3,7 @@
 		"name": "Mathias Alejandro Podesta",
 		"description": "I am an Electronic Engineer and I work in software since 2019. I use React and NodeJS to develop projects",
 		"image": "profilepic.jpg",
-		"bio": "Im from Argentina and love tech so I studied electronic and IT. I like working in teams and share knowledge. My hobbies are sports like football ,going to the gym and enjoying time with my wife and family",
+		"bio": "I'm from Argentina and love tech so I studied electronic and IT. I like working in teams and share knowledge. My hobbies are sports like football ,going to the gym and enjoying time with my wife and family",
 		"contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
 		"email": "mathias643@gmail.com",
 		"phone": "(+353) 085 135 6152",
@@ -45,14 +45,14 @@
 			{
 				"school": "Facultad Regional San Nicolas",
 				"degree": "Electronic Engineer",
-				"graduated": "December 2019",
+				"graduated": "March 2012 - December 2019",
 				"description": "Graduated in Electronic, with skills in Electronic Design,PCB,PLC,microcontrollers and other tools"
 			},
 			{
 				"school": "Escuela Tecnica N 2",
 				"degree": "IT Technician",
-				"graduated": "November 2011",
-				"description": "Graduated in IT, I lean and practice differents software patterns and languages like PHP,C,C++,HTML,CSS"
+				"graduated": "March 2009 - November 2011",
+				"description": "Graduated in IT, I learned and practice difference software patterns and programming in differents languages like •PHP •C •C++ •HTML •CSS"
 			}
 		],
 		"work": [
@@ -66,7 +66,7 @@
 				"company": "SAN NICOLÁS DE LOS ARROYOS CITY HALL",
 				"title": "FullStack Developer",
 				"years": "June 2020 - December 2021",
-				"description": "Handling customer requirements for technical solutions.Build an efficient, maintainable code based on requirements.Collaborate with other team members to find the best solution to daily problems.Features development and implementation.Analysis of the product and suggestions about improvements on performance issues. Projects: Development of software for several county management procedure sectors such as the city fines department, the city department of housing and urban development, consumer protection, attorneys register and street sellers register. I’ve also developed software for athletic scholarships."
+				"description": "Handling customer requirements for technical solutions.Build an efficient, maintainable code based on requirements.Collaborate with other team members to find the best solution to daily problems.Features development and implementation.Analysis of the product and suggestions about improvements on performance issues. 💻 Projects: Development of software for several county management procedure sectors such as the city fines department, the city department of housing and urban development, consumer protection, attorneys register and street sellers register. I’ve also developed software for athletic scholarships."
 			},
 			{
 				"company": "CLINICA UOM",
