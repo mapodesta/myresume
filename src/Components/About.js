@@ -15,7 +15,7 @@ export const About = ({ data }) => {
   const resumeDownload = data.resumedownload;
 
   return (
-    <section id="about" style={{ background: "black" }}>
+    <section id="about" style={{ background: "#1C1C1C" }}>
       <Fade duration={1000}>
         <div className="row">
           <div className="three columns">
@@ -26,12 +26,12 @@ export const About = ({ data }) => {
             />
           </div>
           <div className="nine columns main-col">
-            <h2 style={{ color: "#fe6928" }}>About Me</h2>
+            <h2>About Me</h2>
 
             <p>{bio}</p>
             <div className="row">
               <div className="columns contact-details">
-                <h2 style={{ color: "#fe6928" }}>Contact Details</h2>
+                <h2>Contact Details</h2>
                 <p className="address">
                   <span>{name}</span>
                   <br />
