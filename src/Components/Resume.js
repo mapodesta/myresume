@@ -55,7 +55,7 @@ class Resume extends Component {
     });
 
     return (
-      <section id="resume" style={{ background: "#1F1F1F" }}>
+      <section id="resume" style={{ background: "#1C1C1C" }}>
         <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
